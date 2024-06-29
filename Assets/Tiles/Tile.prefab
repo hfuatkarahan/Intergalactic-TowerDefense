@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5685434710604003630}
-  - component: {fileID: 6889529593290805636}
+  - component: {fileID: 6284408205314574015}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -34,7 +34,7 @@ Transform:
   - {fileID: 2661272390908856314}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6889529593290805636
+--- !u!114 &6284408205314574015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,7 +43,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1348733684668012125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6757def730d397049849ec6d6eb26584, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d317af55c4ef1b4bbf23af85bef3b9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3491255463465159029
@@ -107,7 +107,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5865b49415886244a88bbc6d104fb6fd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 2661272390908856314}
   - component: {fileID: 8397641468057442797}
   - component: {fileID: 9183401212068750396}
+  - component: {fileID: 7477975867903762673}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -228,7 +229,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -99,-99
+  m_text: 0,0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -300,3 +301,15 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 8397641468057442797}
   m_maskType: 0
+--- !u!114 &7477975867903762673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8058547347520588490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6757def730d397049849ec6d6eb26584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
