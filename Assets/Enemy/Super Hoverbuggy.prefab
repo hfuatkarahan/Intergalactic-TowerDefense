@@ -149,10 +149,10 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Radius: 4
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.4616737
+  m_Center: {x: 9.458729e-18, y: 0.33936632, z: -0.0014350415}
 --- !u!1 &1253848029562068
 GameObject:
   m_ObjectHideFlags: 0
@@ -14701,6 +14701,8 @@ GameObject:
   - component: {fileID: 82094088292764670}
   - component: {fileID: 136866353072794800}
   - component: {fileID: 2679986086123043452}
+  - component: {fileID: 2112509757372129037}
+  - component: {fileID: 6255141424085995113}
   m_Layer: 11
   m_Name: Super Hoverbuggy
   m_TagString: Untagged
@@ -14889,12 +14891,12 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.55
-  m_Height: 1
+  m_Height: 1.1000003
   m_Direction: 1
-  m_Center: {x: 0, y: 0.42, z: 0}
+  m_Center: {x: -0, y: 0.41999826, z: 0}
 --- !u!114 &2679986086123043452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14909,6 +14911,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: []
   speed: 1
+--- !u!114 &2112509757372129037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511114609136056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dc62c21d6391d42a674344192e0143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHitPoints: 5
+  currentHitPoints: 0
+--- !u!65 &6255141424085995113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511114609136056}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.92550296, y: 0.5608124, z: 1.1119494}
+  m_Center: {x: -0.0063243634, y: 0.2856159, z: 0.07032753}
 --- !u!1 &1534043476352706
 GameObject:
   m_ObjectHideFlags: 0
@@ -34365,7 +34402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4373705520452466
 Transform:
   m_ObjectHideFlags: 0
