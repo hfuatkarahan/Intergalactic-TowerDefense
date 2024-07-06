@@ -14923,7 +14923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7dc62c21d6391d42a674344192e0143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 5
+  maxHitPoints: 20
   currentHitPoints: 0
 --- !u!65 &6255141424085995113
 BoxCollider:
@@ -34402,7 +34402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4373705520452466
 Transform:
   m_ObjectHideFlags: 0
