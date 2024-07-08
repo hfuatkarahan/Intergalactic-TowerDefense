@@ -289,7 +289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2873162780320994315, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5339530622927529578, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_text
@@ -1164,7 +1164,7 @@ GameObject:
   - component: {fileID: 769896185}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Path
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1205,7 +1205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2873162780320994315, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5339530622927529578, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_text
@@ -1294,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2873162780320994315, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5339530622927529578, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_text
@@ -2257,7 +2257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2873162780320994315, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5339530622927529578, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_text
@@ -2451,7 +2451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2873162780320994315, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5339530622927529578, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_text
@@ -2728,7 +2728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2873162780320994315, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5339530622927529578, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_text
@@ -3017,7 +3017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2873162780320994315, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5339530622927529578, guid: 42b954ae0d464764289793dc12b87818, type: 3}
       propertyPath: m_text
@@ -3097,6 +3097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048613267}
   - component: {fileID: 2048613266}
+  - component: {fileID: 2048613268}
   m_Layer: 0
   m_Name: Bank
   m_TagString: Untagged
@@ -3116,7 +3117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fc624ca2f674b94f92d0fe23b7db643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingBalance: 1000
+  startingBalance: 500
   currentBalance: 0
   displayBalance: {fileID: 1788218101}
 --- !u!4 &2048613267
@@ -3134,6 +3135,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2048613268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048613265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7aac607dab3234d9e8c9ef49d07c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldReward: 25
+  goldPenalty: 25
 --- !u!1001 &2113634144
 PrefabInstance:
   m_ObjectHideFlags: 0

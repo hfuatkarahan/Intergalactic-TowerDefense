@@ -14701,8 +14701,8 @@ GameObject:
   - component: {fileID: 82094088292764670}
   - component: {fileID: 136866353072794800}
   - component: {fileID: 2679986086123043452}
-  - component: {fileID: 2112509757372129037}
   - component: {fileID: 6255141424085995113}
+  - component: {fileID: 2112509757372129037}
   - component: {fileID: -7152939001697179700}
   m_Layer: 11
   m_Name: Super Hoverbuggy
@@ -14912,20 +14912,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: []
   speed: 1
---- !u!114 &2112509757372129037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511114609136056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7dc62c21d6391d42a674344192e0143, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHitPoints: 10
-  currentHitPoints: 0
 --- !u!65 &6255141424085995113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14947,6 +14933,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.92550296, y: 0.5608124, z: 1.1119494}
   m_Center: {x: -0.0063243634, y: 0.2856159, z: 0.07032753}
+--- !u!114 &2112509757372129037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511114609136056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dc62c21d6391d42a674344192e0143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHitPoints: 10
+  difficultyRamp: 1
 --- !u!114 &-7152939001697179700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14959,6 +14959,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f7aac607dab3234d9e8c9ef49d07c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldReward: 25
+  goldPenalty: 25
 --- !u!1 &1534043476352706
 GameObject:
   m_ObjectHideFlags: 0
