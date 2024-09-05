@@ -11,7 +11,7 @@
 
 
 ## 📖 Features
-💰  You start the game with 250 gold </br>
+💰 You start the game with 250 gold </br>
 💓 As enemies die, higher health enemies come </br>
 💲 Each tower is 75 gold </br>
 💢 Each enemy destroys 25 gold </br>
